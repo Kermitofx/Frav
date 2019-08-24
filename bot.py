@@ -80,4 +80,5 @@ def forward(m):
     if(not uid == owner):
         bot.forward_message(owner, m.from_user.id , m.message_id)
 #Bot starts here.
-bot.polling(True)
+
+bot.polling( )
