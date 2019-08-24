@@ -1,5 +1,9 @@
+#!/usr/local/bin/python
 # -*- coding: utf-8 -*-
+import os, sys
 import telebot
+from telebot import types
+from random import randint, choice
 import json
 
 
