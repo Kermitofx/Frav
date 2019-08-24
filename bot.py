@@ -62,15 +62,6 @@ def start(m):
         bot.send_message(uid, welcome_message)
         bot.send_message(owner, "Usuário {}[{}] iniciou o bot.".format(name, uid))
 
-##hshs
-@bot.message_handler(commands=['start'])
-def start72(m):
-    cid = m.chat.id
-    bot.send_message(cid, "Olá, eu sou bot contato, eu sou um bot feito para você entrar em contato
-com meu proprietário, apenas emita o texto como usual, eu respondê-lo-ei tão rapidamente quanto posible!.
-", parse_mode="Markdown")
-
-
 #About message.
 @bot.message_handler(commands=['help'])
 def about(m):
