@@ -11,7 +11,7 @@ import json
 owner = 845646704
 ignored = []
 #730069224:AAF9ShPFniRtS7voRhtejgPOcFoQaHapUhg
-token = ''
+token = '736244244:AAHlPRDrgRRRnwekYiT19oZDFuo-I84aNAw'
 bot = telebot.TeleBot("736244244:AAHlPRDrgRRRnwekYiT19oZDFuo-I84aNAw")
 welcome_message = '''
 Olá, eu sou bot contato, eu sou um bot feito para você entrar em contato
